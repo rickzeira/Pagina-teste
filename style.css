@@ -1,0 +1,53 @@
+body{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+       margin:0;
+       padding:0;
+   }
+   
+   .container{
+       max-width: 800px;
+       margin: 0 auto;
+       padding: 20px;
+       background-color: darkorchid;
+       color: beige;
+   
+   
+   }
+   
+   .titulo-principal{
+   text-align: center;
+       font-size: 2cm;
+   }
+   
+   .banner{
+       text-align: center;
+   }
+   
+   .banner img{
+       width: 800;
+       height: auto;
+       border-radius: 50px;
+       box-shadow: 0 0 10px;
+   
+   }
+   
+    .elenco{
+       display: flex;
+       justify-content: space-around;
+       margin-bottom: 70px;
+   
+    }
+   
+    .ator{
+       text-align: center;
+   
+    }
+   
+    .ator img{
+       width: 100px;
+       height: 150px;
+       object-fit: cover;
+       border-radius: 4px;
+   
+   
+    }
