@@ -12,7 +12,7 @@ body{
    }
    
    .container{
-       max-width: 800px;
+       max-width: autopx;
        margin: 0 auto;
        padding: 20px;
        background: linear-gradient(magenta,purple,black);
@@ -35,34 +35,54 @@ body{
    }
    
    .banner{
-       text-align: center;
+       text-align:center;
    }
    
    .banner img{
-       width: 800;
-       height: auto;
+       width: autopx;
+       height: 800px;
        border-radius: 50px;
-       box-shadow: 0 0 10px;
+       box-shadow: 0 0 10px solid black;
    
    }
    
     .elenco{
-       display: flex;
-       justify-content: space-around;
-       margin-bottom: 70px;
+      display:flex;
+      justify-content: space-around; 
+      margin-bottom: 70px;
+      justify-content: space-between;
+      
+      
+     
+     
+       
    
     }
    
     .ator{
        text-align: center;
+      display:inline-block;
+      margin:0 5px;
+      padding:10px;
    
     }
    
     .ator img{
-       width: 100px;
-       height: 150px;
-       object-fit: cover;
-       border-radius: 4px;
+      position:center;
+      width: 100px;
+      height: 150px;
+      object-fit:cover;
+      border-radius: 4px;
+      
+  
+
+      transition:transform 0.3s ease;
+      
+       
    
    
     }
+
+.ator:hover img{
+  transform: scale(1.1);
+}
